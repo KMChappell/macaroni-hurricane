@@ -1,0 +1,79 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="/css/custom.css" rel="stylesheet">
+    <title>Macaroni Hurricane</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #1C053A;">
+        <a class="navbar-brand" href="#">MH</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Experiments</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Newsletter <span class="sr-only">(current)</span></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main role="main" class="container">
+
+        <div class="landing">
+            <h1>Email Sign Up</h1>
+            <p class="lead">Sign up to my email list for exciting news and cat pictures!</p>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <form method="post" action="https://www.aweber.com/scripts/addlead.pl">
+                    <div class="form-group">
+                        <input type="hidden" name="listname" value="awlist5375609" />
+                        <input type="hidden" name="redirect" value="http://macaronihurricane.com/experiments/thankyou.htm" />
+                        <input type="hidden" name="meta_adtracking" value="custom form" />
+                        <input type="hidden" name="meta_message" value="1" /> 
+                        <input type="hidden" name="meta_forward_vars" value="1" /> 
+                        <label for="emailAddress">Email address</label>
+                        <input type="email" class="form-control" id="emailAddress" aria-describedby="emailHelp"
+                            placeholder="Email Address">
+                        <small id="emailHelp" class="form-text text-muted">No spam! Your email will not be shared.</small>
+                    </div>
+                    <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="nameBox" placeholder="Name">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+            <div class="col">
+                <img src="/img/email_cat.jpg" class="img-fluid" alt="gray cat">
+            </div>
+        </div>
+
+    </main><!-- /.container -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
